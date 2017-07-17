@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="reoger.hut.voice.VioceActivity"
+	tools:layout_editor_absoluteY="81dp"
+	tools:layout_editor_absoluteX="0dp">
+
+<Button
+	android:id="@+id/button4"
+	android:layout_width="0dp"
+	android:layout_height="wrap_content"
+	android:text="按住说话"
+	tools:layout_constraintRight_creator="1"
+	tools:layout_constraintBottom_creator="1"
+	app:layout_constraintBottom_toBottomOf="parent"
+	app:layout_constraintRight_toRightOf="@+id/button5"
+	tools:layout_constraintLeft_creator="1"
+	android:layout_marginBottom="169dp"
+	app:layout_constraintLeft_toLeftOf="@+id/button5" />
+	
+	<TextView
+	android:id="@+id/textView"
+	android:layout_width="0dp"
+	android:layout_height="67dp"
+	android:text="textview"
+	android:layout_marginStart="6dp"
+	tools:layout_constraintTop_creator="1"
+	tools:layout_constraintRight_creator="1"
+	android:layout_marginEnd="6dp"
+	app:layout_constraintRight_toRightOf="parent"
+	android:layout_marginTop="16dp"
+	tools:layout_constraintLeft_creator="1"
+	app:layout_constraintLeft_toLeftOf="parent"
+	app:layout_constraintTop_toTopOf="parent"
+	android:layout_marginLeft="6dp"
+	android:layout_marginRight="6dp" />
+	
+	<Button
+		android:id="@+id/button5"
+		android:layout_width="89dp"
+		android:layout_height="48dp"
+		android:text="开始"
+		android:layout_marginStart="76dp"
+		tools:layout_constraintBottom_creator="1"
+		app:layout_constraintBottom_toBottomOf="parent"
+		tools:layout_constraintLeft_creator="1"
+		android:layout_marginBottom="43dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		android:layout_marginLeft="76dp" />
+	
+	<Button
+	android:id="@+id/button6"
+	android:layout_width="0dp"
+	android:layout_height="wrap_content"
+	android:text="播放"
+	android:layout_marginEnd="47dp"
+	tools:layout_constraintRight_creator="1"
+	app:layout_constraintRight_toRightOf="parent"
+	app:layout_constraintBaseline_toBaselineOf="@+id/button4"
+	tools:layout_constraintBaseline_creator="1"
+	android:layout_marginRight="47dp" />
+	
+	<Button
+		android:id="@+id/button7"
+		android:layout_width="95dp"
+		android:layout_height="48dp"
+		android:text="播放"
+		android:layout_marginEnd="33dp"
+		tools:layout_constraintTop_creator="1"
+		tools:layout_constraintRight_creator="1"
+		tools:layout_constraintBottom_creator="1"
+		app:layout_constraintBottom_toBottomOf="@+id/button5"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="@+id/button5"
+		android:layout_marginRight="33dp" />
+
+</android.support.constraint.ConstraintLayout>
